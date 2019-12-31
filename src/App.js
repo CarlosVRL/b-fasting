@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import Header from './components/Header.js';
+import Timeset from './components/Timeset.js';
 
 function App() {
   return (
@@ -11,20 +13,6 @@ function App() {
         <Timer />
     </div>
   );
-}
-
-class Timeset extends React.Component {
-  render() {
-    return (
-      <div className="timeset-container">
-        <img
-          className="timeset-img"
-          src="https://images.unsplash.com/photo-1418848372148-629424a5ca04?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-          alt="set the time"
-        />
-      </div>
-    );
-  }
 }
 
 class Inspiration extends React.Component {
