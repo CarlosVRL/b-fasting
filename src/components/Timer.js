@@ -7,7 +7,7 @@ class Timer extends React.Component {
   render() {
     return (
       <div className="timer-container">
-        <label for="business">TIME TO FAST</label>
+        <label htmlFor="business">TIME TO FAST</label>
         <select className="timer-select" name="business">
           <option value="select">What is your goal?</option>
           <option value="small">16 Hours</option>
