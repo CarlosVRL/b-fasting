@@ -7,11 +7,25 @@ import Timeset from './components/Timeset.js';
 import Timer from './components/Timer.js';
 
 function App() {
+  const sp = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
+  };
+  const s = {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '425px',
+    height: '500px',
+    justifyContent: 'center'
+  };
   return (
-    <div className="app-wrapper">
-        <Header />
-        <Timeset />
-        <Timer />
+    <div style={sp}>
+      <div className="app-wrapper" style={s}>
+          <Header />
+          <Timeset />
+          <Timer />
+      </div>
     </div>
   );
 }
