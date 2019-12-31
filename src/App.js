@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js';
 
 function App() {
   return (
@@ -11,20 +12,6 @@ function App() {
     </div>
   );
 }
-
-class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className="header-container">
-        <h1 className="header-content">Be Fasting</h1>
-      </div>
-    );
-  }
-}
-
 
 class Timeset extends React.Component {
   render() {
