@@ -14,4 +14,18 @@ class Timeset extends React.Component {
   }
 }
 
+class Inspiration extends React.Component {
+  renter() {
+    return (
+      <div className="inspiration-container">
+        <img
+          className="inspiration-img"
+          src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+          alt="don't give up"
+        />
+      </div>
+    );
+  }
+}
+
 export default Timeset;
